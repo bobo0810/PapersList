@@ -2,7 +2,32 @@
 
 相关代码收录于[PytorchNetHub](https://github.com/bobo0810/PytorchNetHub)
 
-[TOC]
+
+
+- [网络结构](#----)
+  * [HS-ResNet: Hierarchical-Split Block on Convolutional Neural Network](#hs-resnet--hierarchical-split-block-on-convolutional-neural-network)
+  * [TARGETDROP: A TARGETED REGULARIZATION METHOD FOR CONVOLUTIONAL NEURAL NETWORKS](#targetdrop--a-targeted-regularization-method-for-convolutional-neural-networks)
+  * [Attentional Feature Fusion](#attentional-feature-fusion)
+- [轻量级网络](#-----)
+- [损失函数](#----)
+  * [A Discriminative Feature Learning Approach for Deep Face Recognition](#a-discriminative-feature-learning-approach-for-deep-face-recognition)
+  * [NormFace: L2 Hypersphere Embedding for Face Verification](#normface--l2-hypersphere-embedding-for-face-verification)
+  * [SphereFace: Deep Hypersphere Embedding for Face Recognition](#sphereface--deep-hypersphere-embedding-for-face-recognition)
+  * [Additive Margin Softmax for Face Verification](#additive-margin-softmax-for-face-verification)
+  * [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](#arcface--additive-angular-margin-loss-for-deep-face-recognition)
+  * [Circle Loss: A Unified Perspective of Pair Similarity Optimization](#circle-loss--a-unified-perspective-of-pair-similarity-optimization)
+  * [DiscFace: Minimum Discrepancy Learning for Deep Face Recognition](#discface--minimum-discrepancy-learning-for-deep-face-recognition)
+- [激活函数](#----)
+  * [Funnel Activation for Visual Recognition](#funnel-activation-for-visual-recognition)
+  * [Dynamic ReLU](#dynamic-relu)
+- [训练策略](#----)
+  * [BroadFace: Looking at Tens of Thousands of People at Once for Face Recognition](#broadface--looking-at-tens-of-thousands-of-people-at-once-for-face-recognition)
+  * [Semi-Siamese Training for Shallow Face Learning](#semi-siamese-training-for-shallow-face-learning)
+  * [Partial FC: Training 10 Million Identities on a Single Machine](#partial-fc--training-10-million-identities-on-a-single-machine)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 ## 网络结构
 
@@ -15,8 +40,9 @@
   （1）减少特征图的冗余信息（2） 避免复杂计算下提高特征表达能力（3）保持速度和精度
 
 - **创新点**
-  1. 提出HS-Block(Hierarchical-Split)，并构建HS-ResNet。
-
+  
+1. 提出HS-Block(Hierarchical-Split)，并构建HS-ResNet。
+  
 - **原理**
 
   1. 将ResNet-Bottleneck的Conv3x3替换为HS-Block，其包含众多通道级别Split和Concat（维护特征表达   sum破坏特征表达）。
@@ -86,6 +112,7 @@
   Softmax只促进特征可分离性，对人脸识别（类内紧凑，类间区隔）并不有效。
 
 - **创新点**
+  
   1. 针对人脸识别，为加强特征可区分能力，提出Center-Loss
 - **原理**
   1. 基于mini-batch更新类中心。
