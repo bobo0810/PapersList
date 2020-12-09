@@ -1,6 +1,8 @@
 # 论文清单
 
-相关代码收录于[PytorchNetHub](https://github.com/bobo0810/PytorchNetHub)
+相关代码如下：
+
+- [PytorchNetHub](https://github.com/bobo0810/PytorchNetHub)
 
 相关论文如下:
 
