@@ -6,8 +6,10 @@
 
 相关论文如下:
 
-- [网络结构/轻量级网络/激活函数](NetworkStructure.md)
+- [网络结构/轻量级网络/激活函数](Model.md)
 
-- [训练策略](TrainStrategy.md)
+- [训练策略](Train.md)
 
-- [损失函数](LossFunction.md)
+- [损失函数](Loss.md)
+
+
