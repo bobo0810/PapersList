@@ -62,7 +62,7 @@ ACCV2020
 
 ### GroupFace: Learning Latent Groups and Constructing Group-based Representations for Face Recognition
 
-​	CVPR2020
+CVPR2020
 
 | 主题   | 描述                                                         |
 | ------ | :----------------------------------------------------------- |

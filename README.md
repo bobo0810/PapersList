@@ -10,6 +10,6 @@
 
 - [训练策略](Train.md)
 
-- [损失函数](Loss.md)
+- [损失函数](https://github.com/bobo0810/FaceVerLoss)
 
 
