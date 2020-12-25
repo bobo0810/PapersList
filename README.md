@@ -8,6 +8,7 @@
 
 - [网络&激活函数](Model.md)
 - [轻量级网络](LightModel.md)
+- [模型压缩](SlimModel.md)
 - [训练策略](Train.md)
 - [损失函数](https://github.com/bobo0810/FaceVerLoss)
 
